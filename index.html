@@ -1,0 +1,1046 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#0b0f19" />
+		<meta
+			name="description"
+			content="Kevin Mathew is a Senior Software Engineer with 4+ years of experience building secure enterprise applications with C#, .NET, and database-driven workflows."
+		/>
+		<title>Kevin Mathew | Senior Software Engineer</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<a class="skip-link" href="#main">Skip to content</a>
+		<header class="site-header">
+			<nav class="nav shell" aria-label="Main navigation">
+				<a class="brand" href="#top" aria-label="Kevin home"
+					>K<span>.</span></a
+				>
+				<button
+					class="menu-toggle"
+					id="menuToggle"
+					aria-label="Open navigation"
+					aria-expanded="false"
+				>
+					☰
+				</button>
+				<div class="nav-links" id="navLinks">
+					<a href="#about">About</a
+					><a href="#experience">Experience</a
+					><a href="#projects">Projects</a><a href="#skills">Stack</a>
+					<a class="button button-small" href="#contact"
+						>Get in touch <span aria-hidden="true">↗</span></a
+					>
+					<button
+						class="theme-toggle"
+						id="themeToggle"
+						type="button"
+						aria-label="Switch to light theme"
+						title="Toggle theme"
+					>
+						☼
+					</button>
+				</div>
+			</nav>
+		</header>
+
+		<main id="main">
+			<section class="hero shell" id="top">
+				<div class="hero-copy">
+					<div class="status">
+						<span class="status-dot"></span> SENIOR SOFTWARE
+						ENGINEER · .NET
+					</div>
+					<p class="eyebrow">
+						SOFTWARE ENGINEERING / ENTERPRISE APPLICATIONS
+					</p>
+					<h1>
+						Kevin Mathew<span class="accent">.</span><br /><span
+							class="muted-heading"
+							>Software</span
+						><br />Engineer
+					</h1>
+					<p class="hero-lede">
+						I build secure .NET APIs and dependable workflows for
+						customer onboarding, insurance, and KYC platforms.
+					</p>
+					<div class="hero-actions">
+						<a class="button" href="#projects"
+							>Explore projects
+							<span aria-hidden="true">↘</span></a
+						>
+						<a class="button button-quiet" href="#contact"
+							>Contact me</a
+						>
+					</div>
+					<div class="social-links" aria-label="Social links">
+						<a
+							href="https://github.com/KCipherX"
+							target="_blank"
+							rel="noreferrer"
+							>GitHub ↗</a
+						>
+						<a
+							href="https://www.linkedin.com/in/kevin-babu-mathew/"
+							target="_blank"
+							rel="noreferrer"
+							>LinkedIn ↗</a
+						>
+						<a href="mailto:kevinbmathew00@gmail.com">Email ↗</a>
+					</div>
+				</div>
+				<aside class="hero-panel" aria-label="Engineering focus">
+					<div class="panel-top">
+						<span>ENGINEERING PROFILE</span
+						><span class="live"><i></i> BUILDING</span>
+					</div>
+					<div class="terminal">
+						<div class="terminal-bar">
+							<b></b><b></b><b></b><span>kevin.profile.cs</span>
+						</div>
+						<pre><code><span class="code-purple">static int</span> FindNextMilestone(
+  <span class="code-blue">int</span>[] years, <span class="code-blue">int</span> target)
+{
+  <span class="code-blue">int</span> low = <span class="code-orange">0</span>, high = years.Length;
+  <span class="code-purple">while</span> (low &lt; high)
+  {
+    <span class="code-blue">var</span> mid = low + (high - low) / <span class="code-orange">2</span>;
+    <span class="code-purple">if</span> (years[mid] &lt; target) low = mid + <span class="code-orange">1</span>;
+    <span class="code-purple">else</span> high = mid;
+  }
+  <span class="code-purple">return</span> low &lt; years.Length ? years[low] : -<span class="code-orange">1</span>;
+}</code></pre>
+					</div>
+					<div class="panel-foot">
+						<span>KEEP MOVING FORWARD</span
+						><span>FIND THE NEXT MILESTONE</span>
+					</div>
+				</aside>
+				<div class="hero-bottom">
+					<span>BASED IN INDIA</span><span>SCROLL TO EXPLORE ↓</span>
+				</div>
+			</section>
+
+			<section class="section shell" id="about">
+				<div class="section-heading">
+					<p class="eyebrow">01 / ABOUT</p>
+					<h2>
+						Enterprise software, built to
+						<span class="accent">last.</span>
+					</h2>
+					<p class="section-intro">
+						Senior Software Engineer with over 4 years of experience
+						building enterprise-grade applications for BFSI, KYC,
+						ELM, and customer onboarding. Skilled in RESTful APIs,
+						database-driven workflows, enterprise integrations,
+						legacy modernization, and production support.
+					</p>
+				</div>
+				<div class="principles">
+					<article class="principle-card">
+						<span class="card-index">01</span>
+						<div class="line-icon">⌘</div>
+						<h3>First-principles architecture</h3>
+						<p>
+							Clean Architecture, SOLID, CQRS, and proven design
+							patterns applied where they reduce coupling and make
+							change safer.
+						</p>
+						<div class="micro-tags">
+							<span>BOUNDARIES</span><span>TESTABILITY</span>
+						</div>
+					</article>
+					<article class="principle-card">
+						<span class="card-index">02</span>
+						<div class="line-icon">⌁</div>
+						<h3>Throughput &amp; resilience</h3>
+						<p>
+							Event-driven processing, distributed coordination,
+							caching, rate limiting, and resilience policies for
+							predictable service behaviour.
+						</p>
+						<div class="micro-tags">
+							<span>KAFKA</span><span>REDIS</span
+							><span>POLLY</span>
+						</div>
+					</article>
+					<article class="principle-card">
+						<span class="card-index">03</span>
+						<div class="line-icon">◈</div>
+						<h3>Observability &amp; security</h3>
+						<p>
+							Structured logs, traceable workflows, secure
+							authentication, and compliance-aware implementation
+							for enterprise environments.
+						</p>
+						<div class="micro-tags">
+							<span>SERILOG</span><span>JWT</span
+							><span>SECURITY</span>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<section class="section section-alt" id="experience">
+				<div class="shell">
+					<div class="section-heading">
+						<p class="eyebrow">02 / CAREER</p>
+						<h2>
+							Experience in
+							<span class="accent">production systems.</span>
+						</h2>
+						<p class="section-intro">
+							Building and supporting critical business platforms
+							across insurance, banking, and enterprise workflows.
+						</p>
+					</div>
+					<div class="timeline">
+						<article class="timeline-item current-role">
+							<div class="timeline-marker"></div>
+							<div class="timeline-meta">
+								<span>CURRENT ROLE</span
+								><span>JUL 2026 — PRESENT</span>
+							</div>
+							<h3>Senior Software Engineer</h3>
+							<p class="role-company">@ eClerx Service Limited</p>
+							<p class="role-note">Airoli, Mumbai</p>
+							<ul>
+								<li>
+									Contribute to enterprise onboarding and KYC
+									systems, driving backend improvements,
+									workflow automation, and support across ELM
+									business processes.
+								</li>
+								<li>
+									Designed and implemented a centralized
+									notification service using .NET Core and
+									Background Services to send event-driven
+									emails from configurable HTML templates with
+									reliable background delivery.
+								</li>
+							</ul>
+							<div class="tag-list">
+								<span>C#</span><span>.NET Core</span
+								><span>Background Services</span
+								><span>SQL Server</span>
+							</div>
+						</article>
+						<article class="timeline-item">
+							<div class="timeline-marker"></div>
+							<div class="timeline-meta">
+								<span>INSURANCE PLATFORM</span
+								><span>JAN 2024 — JUL 2026</span>
+							</div>
+							<h3>Software Engineer</h3>
+							<p class="role-company">
+								@ ICICI Lombard
+								<span class="company-tag">via Ort</span>
+							</p>
+							<p class="role-note">Andheri, Mumbai</p>
+							<ul>
+								<li>
+									Developed and modernized digital insurance
+									microsites for major banking partners,
+									supporting customer onboarding and policy
+									issuance workflows.
+								</li>
+								<li>
+									Partnered with product, architecture, and
+									delivery teams to assess requirements,
+									prioritize trade-offs, and transform legacy
+									systems into maintainable, API-first
+									solutions.
+								</li>
+							</ul>
+							<div class="tag-list">
+								<span>C#</span><span>.NET Core</span
+								><span>PostgreSQL</span><span>Redis</span
+								><span>Kafka</span><span>JWT</span>
+							</div>
+						</article>
+						<article class="timeline-item">
+							<div class="timeline-marker"></div>
+							<div class="timeline-meta">
+								<span>APPLICATION DEVELOPMENT</span
+								><span>SEP 2022 — DEC 2023</span>
+							</div>
+							<h3>Software Developer</h3>
+							<p class="role-company">
+								@ OneRoof Technologies
+								<span class="company-tag">via Ort</span>
+							</p>
+							<p class="role-note">Mulund, Mumbai</p>
+							<ul>
+								<li>
+									Delivered three production web applications
+									using Clean Architecture, SOLID principles,
+									.NET Core 6, and Angular.
+								</li>
+								<li>
+									Worked closely with Agile product, QA, and
+									deployment teams to integrate REST APIs,
+									real-time dashboards, and cross-platform
+									workflows.
+								</li>
+							</ul>
+							<div class="tag-list">
+								<span>.NET Core 6</span><span>Angular</span
+								><span>Clean Architecture</span
+								><span>REST APIs</span><span>Agile</span>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+
+			<section class="section shell" id="projects">
+				<div class="section-heading">
+					<p class="eyebrow">03 / SELECTED WORK</p>
+					<h2>
+						Engineering <span class="accent">case studies.</span>
+					</h2>
+					<p class="section-intro">
+						Selected work across enterprise notifications and
+						digital insurance onboarding platforms.
+					</p>
+				</div>
+				<div
+					class="filter-row"
+					role="group"
+					aria-label="Filter projects"
+				>
+					<button class="filter active" data-filter="all">
+						All work</button
+					><button class="filter" data-filter="platform">
+						Insurance platforms</button
+					><button class="filter" data-filter="internal">
+						Internal systems</button
+					><button class="filter" data-filter="distributed">
+						Notifications
+					</button>
+				</div>
+				<div class="project-grid">
+					<article class="project-card" data-category="platform">
+						<div class="project-top">
+							<span class="project-number">PROJECT / 01</span
+							><span class="project-type"
+								>PLATFORM ENGINEERING</span
+							>
+						</div>
+						<h3>Digital Assisted Platform</h3>
+						<p class="project-summary">
+							High-volume digital onboarding and
+							proposal-to-policy workflows for 10+ banking
+							partners.
+						</p>
+						<div class="project-detail">
+							<h4>Platform contribution</h4>
+							<p>
+								Developed backend services that modernized
+								proposal processing and reduced manual
+								intervention through workflow automation.
+							</p>
+							<h4>Security &amp; reliability</h4>
+							<p>
+								Applied JWT, AES encryption, rate limiting, and
+								API versioning across the proposal-to-policy
+								lifecycle. Supported 99.9% uptime across 10 lakh
+								monthly transactions and 50k+ users through
+								caching, indexing, and feature-flag-controlled
+								zero-downtime deployments; cleared VAPT and ASLC
+								audits with zero critical findings.
+							</p>
+						</div>
+						<div class="tag-list">
+							<span>C#</span><span>.NET Core</span
+							><span>PostgreSQL</span><span>Redis</span
+							><span>Kafka</span><span>Razorpay</span
+							><span>Clean Architecture</span>
+						</div>
+						<button
+							class="architecture-toggle"
+							type="button"
+							aria-expanded="false"
+						>
+							View architecture <span>＋</span>
+						</button>
+						<div class="architecture" hidden>
+							<div class="arch-flow">
+								<b>Banking partners</b><i>→</i><b>.NET APIs</b
+								><i>→</i><b>Proposal workflows</b><i>→</i
+								><b>Policy issuance</b>
+							</div>
+							<div class="arch-flow secondary">
+								<b>Redis cache</b><i>↔</i><b>Backend services</b
+								><i>→</i><b>Kafka events</b><i>→</i
+								><b>Integrations</b>
+							</div>
+							<p>
+								Technologies and workflow summarized from
+								project experience.
+							</p>
+						</div>
+					</article>
+					<article class="project-card" data-category="distributed">
+						<div class="project-top">
+							<span class="project-number">PROJECT / 02</span
+							><span class="project-type"
+								>EVENT-DRIVEN WORKFLOWS</span
+							>
+						</div>
+						<h3>Centralized Notification System</h3>
+						<p class="project-summary">
+							Reliable, configurable email notifications for
+							enterprise business events.
+						</p>
+						<div class="project-detail">
+							<h4>Architecture</h4>
+							<p>
+								Built an event-driven notification platform with
+								queue-based load leveling, decoupling
+								business-event triggers from SMTP delivery
+								through a transactional database queue.
+							</p>
+							<h4>Reliability &amp; compliance</h4>
+							<p>
+								Implemented a background service with
+								minute-interval polling, exponential backoff
+								retries (1, 5, and 15 minutes), poison-message
+								handling, configurable HTML templates with
+								dynamic placeholders, recipient overrides, audit
+								trails, and database archival.
+							</p>
+						</div>
+						<div class="tag-list">
+							<span>C#</span><span>.NET Core</span
+							><span>.NET MVC</span
+							><span>Background Services</span
+							><span>SQL Server</span>
+						</div>
+						<button
+							class="architecture-toggle"
+							type="button"
+							aria-expanded="false"
+						>
+							View architecture <span>＋</span>
+						</button>
+						<div class="architecture" hidden>
+							<div class="arch-flow">
+								<b>Business event</b><i>→</i
+								><b>Database queue</b><i>→</i
+								><b>Background service</b><i>→</i
+								><b>SMTP delivery</b>
+							</div>
+							<div class="arch-flow secondary">
+								<b>Template &amp; placeholders</b><i>→</i
+								><b>Retry / poison handling</b><i>→</i
+								><b>Audit trail</b><i>→</i><b>Archive</b>
+							</div>
+							<p>Workflow summarized from project experience.</p>
+						</div>
+					</article>
+					<article class="project-card" data-category="platform">
+						<div class="project-top">
+							<span class="project-number">PROJECT / 03</span
+							><span class="project-type"
+								>YES BANK · LEAD MANAGEMENT</span
+							>
+						</div>
+						<h3>Yes Insure Pro</h3>
+						<p class="project-summary">
+							Partner platform APIs for secure access, lead flow,
+							and insurance policy discovery.
+						</p>
+						<div class="project-detail">
+							<h4>Platform development</h4>
+							<p>
+								Designed and built the platform API from the
+								ground up, integrating SAML authentication and
+								product-redirection APIs for seamless lead
+								handling.
+							</p>
+							<h4>Capabilities &amp; validation</h4>
+							<p>
+								Implemented role-based access, lead-statistics
+								dashboards, and policy search with filtering,
+								sorting, and pagination. Improved response times
+								with caching and database-index optimization;
+								APIs were tested by cross-functional teams for
+								ASLC and VAPT compliance.
+							</p>
+						</div>
+						<div class="tag-list">
+							<span>SAML</span><span>RBAC</span
+							><span>API caching</span
+							><span>Database indexing</span><span>ASLC</span
+							><span>VAPT</span>
+						</div>
+						<button
+							class="architecture-toggle"
+							type="button"
+							aria-expanded="false"
+						>
+							View architecture <span>＋</span>
+						</button>
+						<div class="architecture" hidden>
+							<div class="arch-flow">
+								<b>Bank partner</b><i>→</i><b>SAML auth</b
+								><i>→</i><b>Platform APIs</b><i>→</i
+								><b>Lead flows</b>
+							</div>
+							<div class="arch-flow secondary">
+								<b>RBAC checks</b><i>→</i><b>Policy search</b
+								><i>→</i><b>Dashboard data</b>
+							</div>
+							<p>Workflow summarized from project experience.</p>
+						</div>
+					</article>
+					<article class="project-card" data-category="platform">
+						<div class="project-top">
+							<span class="project-number">PROJECT / 04</span
+							><span class="project-type"
+								>YES BANK · POLICY ISSUANCE</span
+							>
+						</div>
+						<h3>Elevate</h3>
+						<p class="project-summary">
+							Backend APIs for insurance quotes, enrollment,
+							payments, and policy servicing.
+						</p>
+						<div class="project-detail">
+							<h4>Backend delivery</h4>
+							<p>
+								Developed core APIs for quote calculation,
+								policy issuance, enrollment PDF generation, and
+								payment integration, including wrapper APIs and
+								third-party service integrations.
+							</p>
+							<h4>Ongoing improvements</h4>
+							<p>
+								Supported production operations and maintenance,
+								resolving issues, delivering enhancements, and
+								implementing key policy-renewal modules.
+							</p>
+						</div>
+						<div class="tag-list">
+							<span>Backend APIs</span
+							><span>Third-party integrations</span
+							><span>Payments</span><span>Policy renewal</span>
+						</div>
+						<button
+							class="architecture-toggle"
+							type="button"
+							aria-expanded="false"
+						>
+							View architecture <span>＋</span>
+						</button>
+						<div class="architecture" hidden>
+							<div class="arch-flow">
+								<b>Quote request</b><i>→</i><b>Backend API</b
+								><i>→</i><b>Enrollment</b><i>→</i
+								><b>Policy service</b>
+							</div>
+							<div class="arch-flow secondary">
+								<b>Payments</b><i>→</i
+								><b>Third-party gateways</b><i>→</i
+								><b>Policy servicing</b>
+							</div>
+							<p>Workflow summarized from project experience.</p>
+						</div>
+					</article>
+					<article class="project-card" data-category="platform">
+						<div class="project-top">
+							<span class="project-number">PROJECT / 05</span
+							><span class="project-type"
+								>YES BANK · POLICY RENEWALS</span
+							>
+						</div>
+						<h3>Renewal Platform</h3>
+						<p class="project-summary">
+							Automated renewal workflows connecting Yes Bank and
+							ICICI Lombard systems.
+						</p>
+						<div class="project-detail">
+							<h4>Integration &amp; automation</h4>
+							<p>
+								Built renewal APIs and a secure customer-data
+								integration with Yes Bank's core banking APIs
+								using JWT, plus proposal generation integration
+								and automated tagging that reduced manual work
+								by 30%.
+							</p>
+							<h4>Bulk processing &amp; resilience</h4>
+							<p>
+								Created an NPOI-based Excel upload utility
+								processing 10,000+ renewal records daily;
+								validation and error logging reduced processing
+								errors by 95%. Retries and circuit breakers
+								helped maintain 99.9% uptime during third-party
+								API failures.
+							</p>
+						</div>
+						<div class="tag-list">
+							<span>JWT</span><span>NPOI</span
+							><span>Excel bulk upload</span
+							><span>Retry &amp; circuit breakers</span>
+						</div>
+						<button
+							class="architecture-toggle"
+							type="button"
+							aria-expanded="false"
+						>
+							View architecture <span>＋</span>
+						</button>
+						<div class="architecture" hidden>
+							<div class="arch-flow">
+								<b>Renewal upload</b><i>→</i
+								><b>Validation layer</b><i>→</i
+								><b>Policy engine</b><i>→</i
+								><b>Yes Bank APIs</b>
+							</div>
+							<div class="arch-flow secondary">
+								<b>Retry logic</b><i>→</i><b>Monitoring</b
+								><i>→</i><b>Bulk processing</b>
+							</div>
+							<p>Workflow summarized from project experience.</p>
+						</div>
+					</article>
+					<article class="project-card" data-category="internal">
+						<div class="project-top">
+							<span class="project-number">PROJECT / 06</span
+							><span class="project-type"
+								>STANDARD CHARTERED · CASE MANAGEMENT</span
+							>
+						</div>
+						<h3>Management Access System</h3>
+						<p class="project-summary">
+							Case management APIs connecting Relationship Manager
+							and Quality Control teams.
+						</p>
+						<div class="project-detail">
+							<h4>Access &amp; case workflows</h4>
+							<p>
+								Enabled case creation and management with
+								role-based access and OTP login. Added Excel
+								import/export and searchable, sortable,
+								filterable, paginated case views.
+							</p>
+							<h4>Validation &amp; architecture</h4>
+							<p>
+								Applied custom field validation with
+								FluentValidation and regular expressions.
+								Designed the solution around Clean Architecture
+								and CQRS.
+							</p>
+						</div>
+						<div class="tag-list">
+							<span>C#</span><span>.NET 6</span><span>Dapper</span
+							><span>PostgreSQL</span><span>FluentValidation</span
+							><span>CQRS</span><span>Entity Framework Core</span>
+						</div>
+						<button
+							class="architecture-toggle"
+							type="button"
+							aria-expanded="false"
+						>
+							View architecture <span>＋</span>
+						</button>
+						<div class="architecture" hidden>
+							<div class="arch-flow">
+								<b>RM / QC</b><i>→</i><b>Case APIs</b><i>→</i
+								><b>Validation</b><i>→</i><b>Database</b>
+							</div>
+							<div class="arch-flow secondary">
+								<b>Role access</b><i>→</i><b>Case views</b
+								><i>→</i><b>Reports</b>
+							</div>
+							<p>Workflow summarized from project experience.</p>
+						</div>
+					</article>
+					<article class="project-card" data-category="platform">
+						<div class="project-top">
+							<span class="project-number">PROJECT / 07</span
+							><span class="project-type"
+								>AIRTEL PAYMENTS BANK · INSURANCE</span
+							>
+						</div>
+						<h3>Health Insurance APIs</h3>
+						<p class="project-summary">
+							Group Personal Accident and Home Insurance policy
+							APIs and scheduled reporting.
+						</p>
+						<div class="project-detail">
+							<h4>Policy &amp; reporting workflows</h4>
+							<p>
+								Built REST APIs for rapid policy generation and
+								encrypted data exchange between Airtel Payments
+								Bank and ICICI Lombard. Added scheduled daily
+								Excel report generation and secure delivery.
+							</p>
+							<h4>Security &amp; traffic controls</h4>
+							<p>
+								Implemented data validation, encryption,
+								time-based tokens, request restrictions, and
+								rate limiting.
+							</p>
+						</div>
+						<div class="tag-list">
+							<span>C#</span><span>.NET Framework 4.6</span
+							><span>Dapper</span><span>Oracle</span
+							><span>Encryption</span><span>Rate limiting</span>
+						</div>
+						<button
+							class="architecture-toggle"
+							type="button"
+							aria-expanded="false"
+						>
+							View architecture <span>＋</span>
+						</button>
+						<div class="architecture" hidden>
+							<div class="arch-flow">
+								<b>Airtel bank</b><i>→</i><b>Secure APIs</b
+								><i>→</i><b>Policy engine</b><i>→</i
+								><b>Reports</b>
+							</div>
+							<div class="arch-flow secondary">
+								<b>Validation</b><i>→</i><b>Encryption</b
+								><i>→</i><b>Daily delivery</b>
+							</div>
+							<p>Workflow summarized from project experience.</p>
+						</div>
+					</article>
+					<article class="project-card" data-category="internal">
+						<div class="project-top">
+							<span class="project-number">PROJECT / 08</span
+							><span class="project-type"
+								>CAMPAIGN OPERATIONS</span
+							>
+						</div>
+						<h3>Campaign Utilities</h3>
+						<p class="project-summary">
+							APIs and reporting utilities for Family Shield and
+							Criti Shield insurance campaigns.
+						</p>
+						<div class="project-detail">
+							<h4>Data &amp; reporting</h4>
+							<p>
+								Built APIs to process Excel files and securely
+								persist their data, generate reports, and
+								automatically email them to the relevant users.
+							</p>
+							<h4>Lead tracking</h4>
+							<p>
+								Added checkpoints to track lead progression
+								across specific pages.
+							</p>
+						</div>
+						<div class="tag-list">
+							<span>C#</span><span>.NET Framework 4.6</span
+							><span>Dapper</span><span>Oracle</span
+							><span>Excel processing</span
+							><span>Email automation</span>
+						</div>
+						<button
+							class="architecture-toggle"
+							type="button"
+							aria-expanded="false"
+						>
+							View architecture <span>＋</span>
+						</button>
+						<div class="architecture" hidden>
+							<div class="arch-flow">
+								<b>Excel upload</b><i>→</i><b>Processing API</b
+								><i>→</i><b>Report generation</b><i>→</i
+								><b>Email dispatch</b>
+							</div>
+							<div class="arch-flow secondary">
+								<b>Lead checkpoints</b><i>→</i
+								><b>Tracking data</b>
+							</div>
+							<p>Workflow summarized from project experience.</p>
+						</div>
+					</article>
+					<article class="project-card" data-category="internal">
+						<div class="project-top">
+							<span class="project-number">PROJECT / 09</span
+							><span class="project-type"
+								>AGREEMENT WORKFLOWS</span
+							>
+						</div>
+						<h3>Agreement Tracking System</h3>
+						<p class="project-summary">
+							Agreement data management and automated
+							notifications for approaching term expirations.
+						</p>
+						<div class="project-detail">
+							<h4>Application &amp; notifications</h4>
+							<p>
+								Developed APIs for agreement data storage and
+								management, with scheduled notifications for
+								upcoming agreement expirations.
+							</p>
+							<h4>Access &amp; user interface</h4>
+							<p>
+								Implemented role-based login with API-key
+								authentication and built a dedicated .NET MVC
+								application to consume the APIs.
+							</p>
+						</div>
+						<div class="tag-list">
+							<span>C#</span><span>.NET 4.8</span
+							><span>Dapper</span><span>SQL Server</span
+							><span>JavaScript</span><span>jQuery</span
+							><span>Bootstrap</span>
+						</div>
+						<button
+							class="architecture-toggle"
+							type="button"
+							aria-expanded="false"
+						>
+							View architecture <span>＋</span>
+						</button>
+						<div class="architecture" hidden>
+							<div class="arch-flow">
+								<b>Agreement data</b><i>→</i><b>API layer</b
+								><i>→</i><b>Schedule checks</b><i>→</i
+								><b>Notifications</b>
+							</div>
+							<div class="arch-flow secondary">
+								<b>Role auth</b><i>→</i><b>.NET MVC app</b
+								><i>→</i><b>Admin workflows</b>
+							</div>
+							<p>Workflow summarized from project experience.</p>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<section class="section section-alt" id="skills">
+				<div class="shell">
+					<div class="section-heading">
+						<p class="eyebrow">04 / TOOLKIT</p>
+						<h2>Technical <span class="accent">stack.</span></h2>
+						<p class="section-intro">
+							Tools and technologies used to build, test, secure,
+							and support enterprise applications.
+						</p>
+					</div>
+					<div class="skill-toolbar">
+						<label for="skillSearch">Filter technologies</label
+						><input
+							id="skillSearch"
+							type="search"
+							placeholder="Search .NET, Kafka, PostgreSQL…"
+							autocomplete="off"
+						/>
+					</div>
+					<div class="skills-grid" id="skillsGrid">
+						<article class="skill-group">
+							<h3>01 <span>Backend</span></h3>
+							<div class="skill-tags">
+								<button>C#</button><button>.NET</button
+								><button>.NET Core</button
+								><button>.NET Framework</button
+								><button>ASP.NET MVC</button
+								><button>ASP.NET Web API</button
+								><button>Razor Pages</button
+								><button>Entity Framework Core</button
+								><button>Dapper</button>
+							</div>
+						</article>
+						<article class="skill-group">
+							<h3>02 <span>Database</span></h3>
+							<div class="skill-tags">
+								<button>SQL Server</button
+								><button>PostgreSQL</button
+								><button>Oracle</button><button>Redis</button
+								><button>T-SQL</button>
+							</div>
+						</article>
+						<article class="skill-group">
+							<h3>03 <span>Frontend &amp; UI</span></h3>
+							<div class="skill-tags">
+								<button>HTML5</button><button>CSS3</button
+								><button>Bootstrap</button
+								><button>JavaScript</button
+								><button>TypeScript</button
+								><button>Angular</button>
+							</div>
+						</article>
+						<article class="skill-group">
+							<h3>
+								04 <span>Cloud, DevOps &amp; messaging</span>
+							</h3>
+							<div class="skill-tags">
+								<button>Docker</button
+								><button>Docker Compose</button
+								><button>AWS S3</button
+								><button>AWS Secrets Manager</button
+								><button>Kafka</button><button>Git</button
+								><button>GitHub</button>
+							</div>
+						</article>
+						<article class="skill-group">
+							<h3>05 <span>Architecture &amp; security</span></h3>
+							<div class="skill-tags">
+								<button>Clean Architecture</button
+								><button>CQRS</button
+								><button>Unit of Work</button
+								><button>Dependency Injection</button
+								><button>SOLID</button
+								><button>RESTful APIs</button
+								><button>JWT</button><button>Encryption</button>
+							</div>
+						</article>
+						<article class="skill-group">
+							<h3>06 <span>Testing &amp; libraries</span></h3>
+							<div class="skill-tags">
+								<button>xUnit</button
+								><button>FluentAssertions</button
+								><button>FluentValidation</button
+								><button>Polly</button><button>Serilog</button
+								><button>NPOI</button>
+							</div>
+						</article>
+						<article class="skill-group">
+							<h3>07 <span>AI-assisted development</span></h3>
+							<div class="skill-tags">
+								<button>GitHub Copilot</button
+								><button>ChatGPT</button><button>Claude</button
+								><button>Prompt Engineering</button
+								><button>AI Code Review</button
+								><button>Test Generation</button>
+							</div>
+						</article>
+					</div>
+					<p class="no-results" id="noSkills" hidden>
+						No matching technologies. Try another search term.
+					</p>
+				</div>
+			</section>
+
+			<section class="section shell education-section">
+				<div class="education-copy">
+					<p class="eyebrow">05 / EDUCATION</p>
+					<h2>
+						Strong fundamentals.<br /><span class="accent"
+							>Continuous learning.</span
+						>
+					</h2>
+				</div>
+				<div class="education-list">
+					<article class="education-card">
+						<div class="education-card-head">
+							<span class="education-type">POSTGRADUATE</span>
+							<span class="education-period">2020 — 2022</span>
+						</div>
+						<h3>Master of Computer Applications (MCA)</h3>
+						<p class="education-school">
+							A.S.M Institute of Management &amp; Computer Studies
+						</p>
+						<p class="education-meta">Thane, India</p>
+						<p class="education-score">CGPA: 9.15 / 10.00</p>
+					</article>
+					<article class="education-card">
+						<div class="education-card-head">
+							<span class="education-type">UNDERGRADUATE</span>
+							<span class="education-period">2017 — 2020</span>
+						</div>
+						<h3>Bachelor of Computer Science (B.Sc. C.S)</h3>
+						<p class="education-school">K. M. Agrawal College</p>
+						<p class="education-meta">Kalyan, India</p>
+						<p class="education-score">CGPA: 7.78 / 10.00</p>
+					</article>
+				</div>
+			</section>
+
+			<section class="section contact-section" id="contact">
+				<div class="shell contact-layout">
+					<div>
+						<p class="eyebrow">06 / CONTACT</p>
+						<h2>Have a complex<br />backend problem?</h2>
+						<p class="section-intro">
+							For engineering opportunities, architecture
+							discussions, or collaboration, send a message.
+						</p>
+						<div class="contact-meta">
+							<span class="location-pill">⌖ India</span
+							><a
+								href="mailto:kevinbmathew00@gmail.com"
+								class="email-copy"
+								id="copyEmail"
+								>kevinbmathew00@gmail.com ↗</a
+							>
+						</div>
+					</div>
+					<form class="contact-form" id="contactForm" novalidate>
+						<div class="form-row">
+							<label for="name">Name</label
+							><input
+								id="name"
+								name="name"
+								required
+								minlength="2"
+								placeholder="Your name"
+							/><small class="error"></small>
+						</div>
+						<div class="form-row">
+							<label for="email">Email</label
+							><input
+								id="email"
+								name="email"
+								type="email"
+								required
+								placeholder="you@company.com"
+							/><small class="error"></small>
+						</div>
+						<div class="form-row">
+							<label for="message">Message</label
+							><textarea
+								id="message"
+								name="message"
+								rows="4"
+								required
+								minlength="10"
+								placeholder="Tell me a little about the opportunity or project…"
+							></textarea
+							><small class="error"></small>
+						</div>
+						<button class="button submit-button" type="submit">
+							Prepare message <span>↗</span>
+						</button>
+						<p class="form-note" id="formNote">
+							Static form: validates your message and opens your
+							default email application. No data is stored on this
+							site.
+						</p>
+					</form>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="shell footer-inner">
+				<a class="brand" href="#top">K<span>.</span></a>
+				<p class="footer-copy">
+					<span class="footer-message"
+						>Designed &amp; built with clarity.</span
+					>
+					<span class="footer-meta"
+						>© <span id="year"></span> Kevin</span
+					>
+				</p>
+				<a href="#top">Back to top ↑</a>
+			</div>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
